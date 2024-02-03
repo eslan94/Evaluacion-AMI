@@ -15,7 +15,7 @@ import { Ej9Screen } from './src/screens/Ej9Screen'
 export const App = () => {
   return (
     <SafeAreaView style={{flex:1}}>
-      {/*<ArregloScreen/>*/}
+      <ArregloScreen/>
       {/*<Ej1Screen/>*/}
       {/*<Ej2Screen/>*/}
       {/*<Ej3Screen/>*/}
@@ -24,7 +24,7 @@ export const App = () => {
       {/*<Ej6Screen/>*/}
       {/*<Ej7Screen/>*/}
       {/*<Ej8Screen/>*/}
-      <Ej9Screen/>
+      {/*<Ej9Screen/>*/}
     </SafeAreaView>
   )
 }
