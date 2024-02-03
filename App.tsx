@@ -5,6 +5,7 @@ import { ArregloScreen } from './src/screens/ArregloScreen'
 import { Ej1Screen } from './src/screens/Ej1Screen'
 import { Ej2Screen } from './src/screens/Ej2Screen'
 import { Ej3Screen } from './src/screens/Ej3Screen'
+import { Ej4Screen } from './src/screens/Ej4Screen'
 
 export const App = () => {
   return (
@@ -12,7 +13,8 @@ export const App = () => {
       {/*<ArregloScreen/>*/}
       {/*<Ej1Screen/>*/}
       {/*<Ej2Screen/>*/}
-      <Ej3Screen/>
+      {/*<Ej3Screen/>*/}
+      <Ej4Screen/>
     </SafeAreaView>
   )
 }
