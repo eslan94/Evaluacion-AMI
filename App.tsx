@@ -10,6 +10,7 @@ import { Ej5Screen } from './src/screens/Ej5Screen'
 import { Ej6Screen } from './src/screens/Ej6Screen'
 import { Ej7Screen } from './src/screens/Ej7Screen'
 import { Ej8Screen } from './src/screens/Ej8Screen'
+import { Ej9Screen } from './src/screens/Ej9Screen'
 
 export const App = () => {
   return (
@@ -22,7 +23,8 @@ export const App = () => {
       {/*<Ej5Screen/>*/}
       {/*<Ej6Screen/>*/}
       {/*<Ej7Screen/>*/}
-      <Ej8Screen/>
+      {/*<Ej8Screen/>*/}
+      <Ej9Screen/>
     </SafeAreaView>
   )
 }
